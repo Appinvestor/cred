@@ -105,7 +105,7 @@ const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.bin
 const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
 const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff00018080f09d99ddbf92610246ad3a7c3b4d1bc179d9c5894f00ae7d604e7e59e77f566b7b38b561dac98ee12101c4f37756271de2942d23eab85b6f1997296de84c9e5c84b24954e3530e7909fa";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff00018080f09d99ddbf9261025668d6b4465ceb7333dc8c1bff53cb5ae6a9b6334b9a5fb9c72e0c1646ecee0d2101fd8196f00c2ecac280bb7464348fdf48a56bf21b0702c2281a0cf53becbfb152";
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "cred";
@@ -141,7 +141,7 @@ const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; //
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
-const char* const SEED_NODES[] = { "13.59.145.56:8850" "18.221.162.162:8850" };
+const char* const SEED_NODES[] = { "45.77.184.46:8850" "45.32.139.109:8850" };
 
 
 struct CheckpointData {
